@@ -130,7 +130,7 @@ pub use nsdate::NSDate;
 #[cfg(feature="nsarray")]
 pub use nsarray::NSArray;
 #[cfg(feature="nsenumerator")]
-pub use nsenumerator::{NSFastEnumeration,FastEnumerator};
+pub use nsenumerator::{NSFastEnumeration,FastEnumerator,NSFastEnumerationState};
 #[cfg(feature="nsattributedstring")]
 pub use nsattributedstring::*;
 
